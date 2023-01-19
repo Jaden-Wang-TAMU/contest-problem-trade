@@ -1,0 +1,47 @@
+# Horse Dilemma
+Given a number of horses and horse breeds, print out the whole barn with each horse sorted into its breed.
+## Problem
+Given the different types of horse breeds, you must be able to sort an unknown number of horses into their pens based on their breed and print the whole barn.
+## Input
+The first line of input is an integer that tells the user the total number of horse breeds; following this integer, different types of horse breeds are provided. After this, horses of different breeds are listed in a random number.
+### Input File:
+`horse.dat`
+## Output
+Given the input above, the user must be able to sort each horse into its pen and print the total barn.
+### Output File:
+`horse.out`
+## Sample Input
+3
+
+Shire
+
+Mustang
+
+Clydesdale
+
+Mustang
+
+Shire
+
+Shire
+
+Shire
+
+Mustang
+
+Clydesdale
+
+Mustang
+
+Shire
+
+Clydesdale
+
+## Sample Output
+Barn:
+
+Shire --------- 4
+
+Mustang ----- 3
+
+Clydesdale --- 2  
